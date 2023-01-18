@@ -1,0 +1,131 @@
+ @import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@600&family=Dancing+Script:wght@700&family=Lato&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: #D9CDF7;
+}
+.produto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 63px;
+    color: #271A45;
+}
+.hidden{
+    display:none;
+}
+.sofa{
+    background-image: url("./img/image2.svg");
+    background-size: 700px;
+    background-position: center;
+    background-size: cover;
+      margin: 0 auto;
+    width: 449px;
+    height: 253px;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.sofa-360  .view-3d{
+    background-image: url(./img/360.svg);
+    background-repeat: no-repeat;
+    width: 33px;
+    height: 22.47px;
+    background-color: #D9CDF7;
+border: none;
+cursor: pointer;
+    
+}
+.sofa-360 .sofa{
+    width: 449px;
+height: 253px;
+}
+.name-price{
+    width:374px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+h1{
+    height: 32px;
+
+font-family: 'Crimson Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 40px;
+text-shadow: 1px 6px 20px   #271A45;
+line-height: 100%;
+
+}
+h5{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 300;
+font-size: 10px;
+line-height: 100%;
+
+text-transform: uppercase;
+color: #271A45;
+
+}
+h4{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+}
+.name-price button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px;
+gap: 8px;
+background-color: #D9CDF7;
+width: 148px;
+height: 32px;
+font-size: 11px;
+border: 0.5px solid #271A45;
+border-radius: 999px;
+text-transform: uppercase;
+opacity: 0.6;
+order: 1;
+transition:.4s ease-in-out;
+}
+
+.name-price button:hover{
+    opacity: 1;
+    border: 0.5px solid #3b266a; 
+    transform: scale(1.05);
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+.sofa-animado{
+    background-image: url("./img/sofa.gif");
+    background-size: 700px;
+    background-position: center;
+    background-size: cover;
+      margin: 0 auto;
+    width: 449px;
+    height: 253px;
+    border: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.sofa-360 .close3d{
+    background-image: url(./img/close.svg);
+    background-repeat: no-repeat;
+    background-color: #D9CDF7;
+    width: 33px;
+height: 22.47px;
+border: none;
+cursor: pointer;
+    
+}
