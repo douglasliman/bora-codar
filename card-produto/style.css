@@ -6,14 +6,23 @@
 }
 body{
     background-color: #D9CDF7;
+    display: flex;
+    justify-content: center;
+
 }
+
+    
+
 .produto{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 63px;
+    gap: 20px;
     color: #271A45;
+    width: 100%;
+    max-width: 900px;
 }
 .hidden{
     display:none;
@@ -24,7 +33,8 @@ body{
     background-position: center;
     background-size: cover;
       margin: 0 auto;
-    width: 449px;
+      width: 100%;
+    max-width: 449px;
     height: 253px;
     border: none;
     display: flex;
@@ -46,14 +56,17 @@ cursor: pointer;
 height: 253px;
 }
 .name-price{
-    width:374px;
+    width:400px;
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
     flex-direction: column;
     gap: 30px;
 }
 h1{
     height: 32px;
-
+    
 font-family: 'Crimson Pro';
 font-style: normal;
 font-weight: 600;
@@ -79,6 +92,7 @@ font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height: 100%;
+
 }
 .name-price button{
     display: flex;
@@ -103,8 +117,8 @@ transition:.4s ease-in-out;
     opacity: 1;
     border: 0.5px solid #3b266a; 
     transform: scale(1.05);
-    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
-    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  background-color: #3b266a;
+  color: white;
 }
 .sofa-animado{
     background-image: url("./img/sofa.gif");
