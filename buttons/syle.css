@@ -70,6 +70,12 @@
 
     text-align: center;
   }
+  .table *{
+    font-family: 'Roboto';
+    font-size: 11px;
+    line-height: 13px;
+    font-weight: 400;
+  }
   .title h2:nth-child(4){
     margin-right: 3 0px;
   }
@@ -308,32 +314,65 @@
     width: 35px;
     height: 30px;
   }
+
+main{
+  display: flex;
+  justify-content: flex-end;
+
+  width: 100%;
+}
 .test-btn{
-  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top:  107px;;
   width: 406px;
   height: 947px;
-  left: 80%;
+  left: 78%;
   top: 0px;
+  gap: 32px;
+
   
   background: #130F1E;
+}
+.test-btn *{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 24px;
 }
   .text{
 color: white;
 
-position: absolute;
+font-size: 19px;
+line-height: 23px;
+
 width: 318px;
 height: 86px;
-left: 44px;
-top: 107px;
+
+  }
+  .text h1{
+    font-weight: 700;
+font-size: 32px;
+line-height: 100%;
+font-family: 'Roboto';
+
+  }
+  .text p{
+    font-family: 'Roboto';
+
+    color: rgba(255, 255, 255,0.6);
   }
   .btn-intereja{
     display: flex;
 flex-direction: column;
 align-items: flex-start;
 padding: 0px;
+
 gap: 32px;
 
-position: absolute;
 width: 317px;
 height: 208px;
 left: 45px;
