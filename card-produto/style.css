@@ -58,8 +58,7 @@ height: 253px;
 .name-price{
     width:400px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+
     padding: 20px;
     flex-direction: column;
     gap: 30px;
@@ -142,4 +141,19 @@ height: 22.47px;
 border: none;
 cursor: pointer;
     
+}
+@media (max-device-width: 870px) {
+        .produto{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+        }
+        .sofa{
+            margin-right: 30px;
+
+        }
+
 }
