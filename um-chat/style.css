@@ -1,0 +1,274 @@
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Roboto&display=swap');
+
+
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  }
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .perfil {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top:5px;
+  
+    /* padding: 24px 72px 0px ; */
+  }
+
+  .barra {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    ;
+    color: rgba(255, 255, 255, 0.8);
+    max-width: 211px;
+    height: 37px;
+
+  }
+
+  .name-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    gap: 4px;
+
+    max-width: 211px;
+    height: 37px;
+  }
+
+  .name-status p:nth-child(2) {
+    color: #00B37E;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+
+  }
+
+  p {
+    color: rgba(255, 255, 255, 0.8);
+
+  }
+
+  .chat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 32px 0px ;
+
+max-width: 375px;
+    position: relative;
+    width: 100%;
+
+    height: 682px;
+
+    background: #1A1924;
+    border-radius: 8px 8px 0px 0px;
+  }
+
+  .conversa p {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+   
+
+  }
+  .date{
+    margin-bottom: 30px;
+    text-align: center;
+    padding-top:40px;
+  }
+
+  .celia,
+  .voce {
+    margin-bottom: 40px;
+  }
+
+  .mensagem,
+  .celia,
+  .voce {
+    color: #E1E1E6;
+  }
+
+  .voce {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    gap: 10px;
+
+
+    width: 311px;
+    height: 66px;
+
+    align-self: stretch;
+  }
+
+  .voce .mensagem {
+    padding: 14px;
+    width: fit-content;
+    height: 42px;
+
+    background: #07847E;
+    border-radius: 8px 8px 0px 8px;
+
+  }
+
+  .celia {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+
+    margin-bottom: 30px;
+    width: 311px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+  }
+
+  .celia .mensagem {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px;
+    gap: 10px;
+
+    width: fit-content;
+    height: fit-content;
+    width: 149px;
+    background: #633BBC;
+    border-radius: 0px 8px 8px 8px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+  }
+
+  /* .celia .mensagem:nth-child(2) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 14px;
+    gap: 10px;
+
+
+
+
+    background: #633BBC;
+    border-radius: 0px 8px 8px 8px;
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  } */
+.send{
+width: 311px;
+height: 76px;
+
+}
+  input {
+    padding:24px;
+    gap: 10px;
+    border: none;
+    width: 311px;
+    height: 52px;
+
+    background: #282843;
+    border-radius: 999px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+
+
+    background-image: url('./img/send.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 24px;
+    padding-right: 20px;
+    background-origin: content-box;
+
+
+  }
+
+  input::placeholder {
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+
+
+    color: #E1E1E6;
+  }
+
+  /* 
+  .mensagem:nth-child(odd){
+    width: 311px;
+height: 80px;
+border: solid 1px red;
+  }
+ .mensagem:nth-child(1){
+padding: 14px;
+
+
+width: 149px;
+height: 56px;
+
+background: #633BBC;
+border-radius: 0px 8px 8px 8px;
+ }
+ .mensagem:nth-child(2){
+
+padding: 14px;
+gap: 10px;
+
+width: 150px;
+height: 42px;
+
+background: #07847E;
+border-radius: 8px 8px 0px 8px;
+
+ }
+ .mensagem:nth-child(3){
+    padding: 14px;
+    gap: 10px;
+    
+    width: 149px;
+    height: 84px;
+    
+    background: #633BBC;
+    border-radius: 0px 8px 8px 8px;
+ 
+ }
+ .mensagem:nth-child(4){
+    padding: 14px;
+    gap: 10px;
+    
+    width: 110px;
+    height: 42px;
+    
+    background: #07847E;
+    border-radius: 8px 8px 0px 8px;
+ } */

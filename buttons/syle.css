@@ -189,6 +189,11 @@
     height: 48px;
   }
 
+  .primary button{
+    border: none;
+    cursor: pointer;
+  }
+
   .primary button:nth-child(1) {
     background: rgba(130, 87, 229, 1);
 
@@ -241,8 +246,13 @@
     height: 448px;
   }
 
+  .secondary button{
+    border: none;
+    cursor: pointer;
+  }
   .secondary button:nth-child(1) {
     background: #3C3748;
+
   }
 
   .secondary button:nth-child(2) {
@@ -276,6 +286,7 @@
 
 .tertiary button{
   border: none;
+  cursor: pointer;
 }
   .tertiary button:nth-child(1) {
     background-color: transparent;
@@ -299,6 +310,11 @@
     background-color: transparent;
     width: 206px;
   }
+  .tertiary button:nth-child(5):hover {
+    background-color: transparent;
+    width: 206px;
+
+  }
 
   .tertiary button:nth-child(6) {
     background-color: transparent;
@@ -314,7 +330,9 @@
     width: 35px;
     height: 30px;
   }
-
+.cursor{
+  cursor: url(./assets/semi-circle.svg);
+}
 main{
   display: flex;
   justify-content: flex-end;
